@@ -13,10 +13,14 @@ namespace LTQL_1721050392.Controllers
     public class LopHoc392Controller : Controller
     {
         private DataDBContext db = new DataDBContext();
+        StrProcess strPro = new StrProcess();
 
         // GET: LopHoc392
         public ActionResult Index()
         {
+            var LopID = db.LopHoc392s.OrderByDescending(m => m.MaLop).FirstOrDefault().MaLop;
+            var newID = strPro.AutoGeneredKey(LopID);
+            ViewBag.newPer = newID;
             return View(db.LopHoc392s.ToList());
         }
 
