@@ -82,3 +82,4 @@ C:\Users\Thinkpad\Desktop\LTQL_1721050392\LTQL_1721050392\obj\Debug\LTQL_1721050
 C:\Users\Thinkpad\Desktop\LTQL_1721050392\LTQL_1721050392\obj\Debug\LTQL_1721050392.pdb
 C:\Users\Thinkpad\Desktop\LTQL_1721050392\LTQL_1721050392\obj\Debug\LTQL_1721050392.csproj.GenerateResource.cache
 C:\Users\Thinkpad\Desktop\LTQL_1721050392\LTQL_1721050392\obj\Debug\LTQL_1721050392.Migrations.Create_Table_LopHoc392.resources
+C:\Users\Thinkpad\Desktop\LTQL_1721050392\LTQL_1721050392\obj\Debug\LTQL_1721050392.Migrations.Create_Table_NMDSinhvien392.resources

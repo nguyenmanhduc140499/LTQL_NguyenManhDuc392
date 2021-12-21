@@ -11,5 +11,7 @@ namespace LTQL_1721050392.Models
         [Key]
         public int MaLop { get; set; }
         public string TenLop { get; set; }
+        public string MaSinhVien { get; set; }
+        public NMDSinhVien392 NMDSinhVien392 { get; set; }
     }
 }
