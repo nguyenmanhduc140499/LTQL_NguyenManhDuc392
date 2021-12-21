@@ -11,6 +11,7 @@ namespace LTQL_1721050392.Models
         public DataDBContext() : base("DataDBContext")
         {
         }
+        public DbSet<LopHoc392> LopHoc392s { get; set; }
 
     }
 }
